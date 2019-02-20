@@ -18,7 +18,7 @@ image::zen-screenshot.png[Preview of AsciiDoc source and corresponding HTML]
 === Asciidoctor与JVM
 
 可以在JVM上使用JRuby运行Asciidoctor。
-Java或者其他JVM语言可以通过{uri-asciidoctorj}[AsciidoctorJ]来调用Asciidoctor的API。
+Java或者其他JVM语言可以通过 {uri-asciidoctorj}[AsciidoctorJ] 来调用Asciidoctor的API。
 
 === Asciidoctor.js
 
