@@ -131,7 +131,7 @@ Asciidoctor implements more syntax, attributes and functions than the legacy Asc
 
 = Introduction to Asciidoctor
 
-include::{includedir}/about-asciidoctor.adoc[]
+include::{includedir}/about-asciidoctor_cn.adoc[]
 
 === Asciidoctor's Most Notable Benefits
 
