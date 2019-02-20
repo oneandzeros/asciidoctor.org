@@ -4,31 +4,24 @@
 
 == Asciidoctor是什么?
 
-////
-{homepage}[Asciidoctor]  是一个开源文本处理器，同时也是可以将AsciiDoc文本转换成HTML5、EPUB3、PDF、DocBook5.0、DocBook4.5、slidedecks和其他客户化格式的工具套件。
-Asciidoctor完全使用Ruby语言编写，使用RubyGem打包，发布于{gem}[RubyGems.org]。
-同样也提供了Fedora，Debian和Ubuntu的相关包用于安装Asciidoctor
-项目的git库位于 {gh-org}[Asciidoctor organization on GitHub]。
-////
+{homepage}[Asciidoctor]  是一个 _快速_ 文本处理器，同时也是一个工具套件，可以将AsciiDoc文本转换成HTML5、EPUB3、PDF、DocBook5.0（或4.5）、slidedecks和其他格式的。
+Asciidoctor由Ruby语言编写，使用RubyGem打包，发布于 {uri-gem}[RubyGems.org]。
+同样也提供了一些linux版本包，包括Fedora，Debian和Ubuntu。
+Asciidoctor是开源软件，{uri-repo}[hosted on GitHub]，发布采用MIT许可证。
 
-Asciidoctor is a _fast_ text processor and publishing toolchain for converting AsciiDoc content to HTML5, EPUB3, PDF, DocBook 5 (or 4.5) slidedecks and other formats.
-Asciidoctor is written in Ruby, packaged as a RubyGem and published to {uri-gem}[RubyGems.org].
-The gem is also packaged in several Linux distributions, including Fedora, Debian and Ubuntu.
-Asciidoctor is open source, {uri-repo}[hosted on GitHub], and released under the MIT license.
+=== 蓝图
 
-=== The Big Picture
-
-Asciidoctor reads content written in plain text, as shown in the panel on the left in the image below, and converts it to HTML5, as shown rendered in the right panel.
-Asciidoctor adds a default stylesheet to the HTML5 document, as shown, to provide a pleasant out-of-the-box experience.
+Asciidoctor解析的内容为纯文本，如下图左侧所示，转换后的内容是HTML5，为图中右侧所示。
+Asciidoctor在HTML5文件中添加了一个默认的stylesheet，从图中可以看出，提供了方便的“开箱即用”体验。
 
 image::zen-screenshot.png[Preview of AsciiDoc source and corresponding HTML]
 
-=== Asciidoctor on the JVM
+=== Asciidoctor与JVM
 
-You can run Asciidoctor on the JVM using JRuby.
-You can also use {uri-asciidoctorj}[AsciidoctorJ] to invoke Asciidoctor's APIs from Java and other JVM languages.
+可以在JVM上使用JRuby运行Asciidoctor。
+Java或者其他JVM语言可以通过{uri-asciidoctorj}[AsciidoctorJ]来调用Asciidoctor的API。
 
 === Asciidoctor.js
 
-Asciidoctor can be used in JavaScript.
+Asciidoctor可以在JavaScript中使用
 https://opalrb.com[Opal] is used to transcompile the code from Ruby to JavaScript to make {uri-asciidoctorjs}[Asciidoctor.js], which can be used wherever JavaScript runs, such as in a web browser or on Node.js.
